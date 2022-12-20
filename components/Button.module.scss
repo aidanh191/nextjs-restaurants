@@ -1,0 +1,13 @@
+@use '../sass/abstracts/mixins';
+@use '../sass/abstracts/vars';
+
+.btn{
+    background-color: vars.$color_green;
+    
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    color:black;
+    display: inline-block;
+}
